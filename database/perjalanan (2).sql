@@ -39,10 +39,6 @@ CREATE TABLE `data_perjalanan` (
 --
 -- Dumping data for table `data_perjalanan`
 --
-
-INSERT INTO `data_perjalanan` (`id_perjalanan`, `id_user`, `tanggal`, `waktu`, `lokasi`, `keterangan`) VALUES
-(1, 1, '2023-11-17', '17:22', 'Rumah', 'Pulang kuliah');
-
 -- --------------------------------------------------------
 
 --
@@ -60,10 +56,6 @@ CREATE TABLE `user` (
 --
 -- Dumping data for table `user`
 --
-
-INSERT INTO `user` (`id_user`, `nama_lengkap`, `username`, `password`, `foto`) VALUES
-(1, 'Ugustiningtyas', 'cubirth', '123', '../gambar/IMG_20231112_002644_434.jpg');
-
 --
 -- Indexes for dumped tables
 --
